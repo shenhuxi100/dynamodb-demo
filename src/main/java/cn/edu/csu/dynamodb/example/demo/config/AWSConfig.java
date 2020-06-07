@@ -43,7 +43,7 @@ public class AWSConfig {
     @Bean
     public AmazonDynamoDB amazonDynamoDB() {
         return AmazonDynamoDBClientBuilder.standard().withCredentials(amazonAWSCredentialsProvider())
-                .withRegion(Regions.US_WEST_1).build();
+                .withRegion(Regions.AP_SOUTHEAST_1).build();
     }
 
     @Bean

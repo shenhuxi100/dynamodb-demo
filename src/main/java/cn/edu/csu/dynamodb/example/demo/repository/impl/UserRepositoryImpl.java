@@ -23,7 +23,6 @@ public class UserRepositoryImpl implements UserAdditionRepository {
         HashMap<String, AttributeValue> eav = new HashMap<>();
         eav.put(":v1", new AttributeValue().withS(firstName));
 
-
         DynamoDBQueryExpression<User> queryExpression = new DynamoDBQueryExpression<User>()
                 .withIndexName("firstName-lastName-index")
                 .withConsistentRead(false)
