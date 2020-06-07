@@ -4,17 +4,17 @@
 
 同时，GSI查询必须建立在GSI已经建立好了的情况，否则代码可能运行失败。
 
-###SQL与NoSQL的区别:
+### SQL与NoSQL的区别:
 https://docs.aws.amazon.com/zh_cn/amazondynamodb/latest/developerguide/SQLtoNoSQL.html
 
-###DynamoDB 概念
+### DynamoDB 概念
 https://docs.aws.amazon.com/zh_cn/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html
 
-###DynamoDB API
+### DynamoDB API
 https://docs.aws.amazon.com/zh_cn/amazondynamodb/latest/developerguide/DynamoDBMapper.html
 https://docs.aws.amazon.com/zh_cn/amazondynamodb/latest/developerguide/HowItWorks.API.html
 
-###Practice
+### Practice
 在console完成了如下：
 projectName (S)	projectType (S)	active (BOOL)	binarytest (BS)	class (NS)	count (N)	hobby (M)	listtest (L)	text (SS)	memeberName (S)	startDate (S)
 j	med	TRUE	{ 1000, 1010 } 	{ 3, 2, 1 } 	2	{  "lego" : { "S" : "1" }}	[  { "NULL" : true },  { "S" : "testl" }]	{ "1", "2" } 	jaden	20200228
@@ -23,7 +23,7 @@ p	long	FALSE	{ 1000, 1001 } 	{ 3, 2, 1 } 	2	{  "lego" : { "S" : "1" }}	[  { "NUL
 r	long	TRUE	{ 1000, 1010 } 	{ 3, 2, 1 } 	2	{  "lego" : { "S" : "1" }}	[  { "NULL" : true },  { "S" : "testl" }]	{ "1", "2" } 	jaden	20200330
 t	long	FALSE	{ 1001, 1010 } 	{ 3, 2, 1 } 	2	{  "lego" : { "S" : "1" }}	[  { "NULL" : true },  { "S" : "testl" }]	{ "1", "2" } 	yongzhi	20200330
 
-###Questions
+### Questions
 1. NoSQL：
 键值(Key-Value)存储数据库
 列存储数据库。
@@ -45,11 +45,11 @@ https://docs.aws.amazon.com/zh_cn/amazondynamodb/latest/developerguide/HowItWork
 本地二级索引
 https://docs.aws.amazon.com/zh_cn/amazondynamodb/latest/developerguide/SecondaryIndexes.html
 
-6. Coding
+### Coding
 Done in this repo
 
-7. DynamoDB 事务 
+### DynamoDB 事务 
 Done in this repo
 
-8. 备份与还原
+### 备份与还原
 https://docs.aws.amazon.com/zh_cn/amazondynamodb/latest/developerguide/BackupRestore.html
